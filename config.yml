@@ -1,0 +1,21 @@
+libraries:
+  Anime movies test:
+    library_type: movie
+settings:
+  cache: true
+  cache_expiration: 60
+  asset_directory: config/assets
+  sync_mode: append
+  show_unmanaged: true
+  show_filtered: false
+  show_missing: true
+  save_missing: true
+  run_again_delay: 2
+plex:
+  url: xx
+  url: xx
+  token: s5hUzCZQ7HyxnxFf2hKf
+  timeout: 60
+tmdb:
+  apikey: 19865fae7bff1453e9c3dc270f82112a
+  language: en
